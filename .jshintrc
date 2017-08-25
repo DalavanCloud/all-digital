@@ -1,0 +1,49 @@
+{
+  // Enforcing options
+  // http://www.jshint.com/docs/options/#enforcing-options
+
+  "bitwise": true,
+  "eqeqeq": true,
+  "forin": true,
+  "latedef": true,
+  "nonew": true,
+  "undef": true,
+  "unused": false,
+  "strict": false,
+  "globals": {
+    "app": true
+  },
+  "predef": [
+    "angular",
+    "CIM",
+    "CIMA",
+    "XPN_Service",
+    "surfnperf",
+    "define",
+    "require",
+    "requirejs",
+    "$",
+    "$ostrich",
+    "digitalData",
+    "_satellite",
+    // Jasmine methods
+    "beforeEach",
+    "loadFixtures",
+    "it",
+    "xit",
+    "describe",
+    "expect",
+    "spyOn",
+    "inject",
+    "readJSON",
+    "jasmine"
+  ],
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  // Environments
+  // http://www.jshint.com/docs/options/#environments
+
+  "browser": true,
+  "jquery": true,
+  "node": true
+}

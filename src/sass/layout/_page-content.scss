@@ -1,0 +1,23 @@
+.page-content {
+  position: relative;
+  clear: both;
+  padding-top: 45px;
+}
+
+.page-content--has-sidebar {
+  .page-main {
+    @include respond-to(768) {
+      padding-left: 25%;
+    }
+  }
+
+  .page-aside {
+    @include respond-to(768) {
+      position: fixed;
+      top: 45px;
+      left: 0;
+      bottom: 0;
+      width: 25%;
+    }
+  }
+}

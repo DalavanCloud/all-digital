@@ -1,19 +1,46 @@
 {
-  "name": "all-digital",
-  "version": "1.9.2",
-  "description": "CSS for All Digital",
+  "name": "All-Digital-Styleguide",
+  "version": "0.0.0",
+  "description": "All Digital Styleguide",
+  "main": "index.html",
+  "scripts": {
+    "update": "npm install && bower install",
+    "verify": "npm run update && tasks/gulp-run verify",
+    "test": "gulp test",
+    "serve": "gulp webserver",
+    "compass": "gulp compass"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Comcast/all-digital.git"
+    "url": "git@github.com:Comcast/all-digital.git"
   },
-  "keywords": [
-    "css",
-    "sass",
-    "mobile-first",
-    "responsive",
-    "front-end",
-    "web"
-  ],
-  "author": "Comcast",
-  "license": "Apache"
+  "author": "",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "bower": "^1.7.0",
+    "del": "^2.2.0",
+    "glob": "^6.0.4",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-gzip": "^1.2.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-ng-html2js": "^0.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace-task": "^0.11.0",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-collector": "^1.0.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tar": "^1.7.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.8.0",
+    "node-sass": "^3.4.2",
+    "phantomjs": "^1.9.19",
+    "require-dir": "^0.3.0"
+  }
 }

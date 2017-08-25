@@ -1,0 +1,120 @@
+.ma-grid {
+  clear: both;
+
+  @include respond-to(768) {
+    margin-left: -12px;
+    width: calc(100% + 24px);
+    font-size: 0;
+    letter-spacing: normal;
+  }
+
+  > [class*="ma-grid__col"] {
+    margin-bottom: 24px;
+
+    @include respond-to(768) {
+      display: inline-block;
+      padding: 0 12px;
+      vertical-align: top;
+      font-size: #{$base-font-size}px; //overcome font-size 0 for inline block
+      letter-spacing: calc-target(0.2);
+    }
+  }
+}
+
+.ma-grid--small-gutter {
+  @include respond-to(768) {
+    margin-left: -6px;
+    width: calc(100% + 12px);
+  }
+
+  > [class*="ma-grid__col"] {
+    margin-bottom: 12px;
+
+    @include respond-to(768) {
+      padding: 0 6px;
+    }
+  }
+}
+
+.ma-grid--no-gutter {
+  @include respond-to(768) {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  > [class*="ma-grid__col"] {
+    margin-bottom: 0;
+
+    @include respond-to(768) {
+      padding: 0;
+    }
+  }
+}
+
+.ma-grid--alt {
+  @include respond-to(768) {
+    overflow: hidden;
+  }
+
+  > .ma-grid__col--1of2:nth-child(odd) {
+    @include respond-to(768) {
+      float: right;
+    }
+  }
+
+  > .ma-grid__col--1of2:nth-child(even) {
+    @include respond-to(768) {
+      float: left;
+    }
+  }
+}
+
+.ma-grid__col--1of2 {
+  @include respond-to(768) {
+    width: 50%;
+  }
+}
+
+.ma-grid__col--1of3 {
+  @include respond-to(768) {
+    width: 33.3%;
+  }
+}
+
+.ma-grid__col--1of4 {
+  @include respond-to(768) {
+    width: 50%;
+  }
+
+  @include respond-to(1024) {
+    width: 25%;
+  }
+}
+
+.ma-grid__col--2of2 {
+  @include respond-to(768) {
+    width: 50%;
+  }
+}
+
+.ma-grid__col--2of3 {
+  @include respond-to(768) {
+    width: 66.6%;
+  }
+}
+
+.ma-grid__col--2of4 {
+  @include respond-to(768) {
+    width: 100%;
+  }
+
+  @include respond-to(1024) {
+    width: 50%;
+  }
+}
+
+.ma-grid__col--3of4 {
+  @include respond-to(768) {
+    width: 75%;
+  }
+}

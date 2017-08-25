@@ -1,0 +1,7 @@
+<div class="form-control {{classes}}">
+  <label class="form-control__label" for="{{inputId}}" ng-if="label" ng-class="labelClass">{{label}}</label>
+  <span class="form-control__note" ng-if="note">{{note}}</span>
+  <div class="form-control__input" ng-transclude>
+  </div>
+  <p class="form-control__helper" ng-if="helper">{{helper}}</p>
+</div>

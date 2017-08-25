@@ -1,0 +1,15 @@
+<div class="card {{ classes }}">
+  <div class="card__date hgroup" ng-if="hasDate">
+    <span class="card__date-item card__date-item--day heading5">Fri</span>
+    <span class="card__date-item card__date-item--month-date heading5">Apr 8</span>
+    <span class="card__date-item card__date-item--time body4">1:05 pm</span>
+  </div>
+  <div class="card__media" ng-if="hasMedia">
+    <div style="width: 60px; height: 60px; border-radius: 50%; background-color:#888;"></div>
+  </div>
+  <div class="card__content" ng-transclude>
+  </div>
+  <div class="card__action" ng-if="hasAction">
+    <a>Link</a>
+  </div>
+</div>
