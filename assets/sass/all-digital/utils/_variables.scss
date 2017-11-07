@@ -2,36 +2,6 @@
 // site specific colors and overrides
 // ==========================================================================
 
-// brand colors
-$blue-sky:          #0272B6;
-$blue-deep:         #0B7DBB;
-$blue-genie:        #2B9CD8;
-$blue-ocean:        #00619A;
-$blue-moon:         #015383;
-
-$red-cherry:        #c90318;
-
-$yellow-banana:     #fece00;
-$yellow-pumpkin:    #ffa700;
-
-$green-lime:        #5bc942;
-$green-grass:       #19a926;
-$green-forest:      #007B76;
-
-// additional colors
-$minty:             #65d0a7;
-$lagoon:            #1bcfe1;
-$green-tea:         #1ee2c9;
-$smolder:           #1f232e;
-$urban:             #051219;
-$red-watermelon:    #fb543f;
-$turq:              #50c3d5;
-$haute:             #ff5a5a;
-$tangerine:         #ff9271;
-$berry:             #ff638d;
-$bramble:           #bc43d3;
-$reign:             #7155d3;
-
 // cool greys
 $white:             #fff;
 $cool-grey1:        #fbfcfc;
@@ -50,6 +20,30 @@ $cool-grey13:       #2a2c2d;
 $cool-grey14:       #191919;
 $black:             #000;
 
+// action blue
+$blue-sky:          #0272B6;
+$blue-deep:         #0B7DBB;
+$blue-genie:        #2B9CD8;
+$blue-ocean:        #00619A;
+$blue-moon:         #015383;
+
+// secondary colors
+$minty:             #65d0a7;
+$turq:              #50c3d5;
+$green-tea:         #1ee2c9;
+$lagoon:            #1bcfe1;
+$haute:             #D9003A;
+$bramble:           #AA2DC1;
+$reign:             #5736CB;
+$winkle:            #3475CA;
+$royal:             #2D42A0;
+$gunmetal:          #2F3845;
+$smolder:           #1f232e;
+$urban:             #051219;
+$red-watermelon:    #fb543f;
+$yellow-pumpkin:    #ffa700;
+$red-cherry:        #c90318;
+
 // ==========================================================================
 // functional color palette
 // ==========================================================================
@@ -67,9 +61,9 @@ $primary:           $blue-sky;
 $secondary:         $blue-deep;
 
 // ui colors
-$ui-success:        $green-lime;
+$ui-success:        $minty;
 $ui-info:           $blue-sky;
-$ui-warning:        $yellow-banana;
+$ui-warning:        $yellow-pumpkin;
 $ui-danger:         $red-cherry;
 
 // ==========================================================================
