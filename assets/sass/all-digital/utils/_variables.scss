@@ -3,13 +3,11 @@
 // ==========================================================================
 
 // brand colors
-$blue-genie:        #2b9cd8;
-$blue-berry:        #1f6f9a;
-$blue-sky:          #0272b6;
-$blue-ocean:        #00619a;
+$blue-sky:          #0272B6;
+$blue-deep:         #0B7DBB;
+$blue-genie:        #2B9CD8;
+$blue-ocean:        #00619A;
 $blue-moon:         #015383;
-$blue-knight:       #051219;
-$blue-jeans:        #0b7dbf;
 
 $red-cherry:        #c90318;
 
@@ -57,14 +55,16 @@ $black:             #000;
 // ==========================================================================
 
 // general
-$text-color:        $cool-grey10;
+$text-color:        $cool-grey12;
 $link-color:        $blue-sky;
 $link-hover-color:  $blue-sky;
+$link-active-color: $blue-moon;
+
 $background-color:  $white;
 
 // color degrees
 $primary:           $blue-sky;
-$secondary:         $blue-berry;
+$secondary:         $blue-deep;
 
 // ui colors
 $ui-success:        $green-lime;

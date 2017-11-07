@@ -77,7 +77,7 @@
 
     input[type="checkbox"]:checked ~ .form-control__label::before,
     input[type="radio"]:checked ~ .form-control__label::before {
-      border-color: $blue-jeans;
+      border-color: $blue-deep;
     }
 
     input[type="radio"]:checked ~ .form-control__label::before {
@@ -85,7 +85,7 @@
     }
 
     input[type="checkbox"]:checked ~ .form-control__label::before {
-      background-color: $blue-jeans;
+      background-color: $blue-deep;
     }
   }
 }
