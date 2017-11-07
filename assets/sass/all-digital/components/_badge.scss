@@ -6,7 +6,7 @@
   border-radius: calc-target(3, $heading5-size);
   background-color: $cool-grey6;
 
-  + & {
+  + .badge {
     margin-left: 6px;
   }
 }
